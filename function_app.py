@@ -42,6 +42,6 @@ def http_trigger1(req: func.HttpRequest) -> func.HttpResponse:
         return func.HttpResponse(f"Hello, {name}. This HTTP triggered function executed successfully.")
     else:
         return func.HttpResponse(
-             "A new deployment",
+             "A new deployment", 
              status_code=200
         )
